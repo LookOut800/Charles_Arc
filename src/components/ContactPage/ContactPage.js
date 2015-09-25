@@ -19,7 +19,7 @@ class ContactPage extends Component {
         <div className="ContactPage-container">
           <h2>Contact</h2>
           <a className="Navigation-link" target='_blank' href='charlesmtalbot.com'>Charlesmtalbot.com</a>
-          <p>Charlietalbot at gmail</p>
+          <p>Charlietalbot@gmail</p>
           <p>Instagram: Blonderrr</p>
           <p>Twitter: @charlietal</p>
 

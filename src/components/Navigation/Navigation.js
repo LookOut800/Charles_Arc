@@ -19,8 +19,6 @@ class Navigation extends Component {
         <a className="Navigation-link" href="/about" onClick={Link.handleClick}>About</a>
         <span className="Navigation-spacer"> | </span>
         <a className="Navigation-link" href="/contact" onClick={Link.handleClick}>Contact</a>
-        <span className="Navigation-spacer"> | </span>
-        <a className="Navigation-link" href="/show" onClick={Link.handleClick}>Show</a>
       </div>
     );
   }

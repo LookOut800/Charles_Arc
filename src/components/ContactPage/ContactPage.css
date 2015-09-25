@@ -12,4 +12,7 @@
   border-left: 1px solid var(--gray);
   background: var(--white-base);
   text-align: center;
+  h2 {
+    margin-top: 100px;
+  }
 }
