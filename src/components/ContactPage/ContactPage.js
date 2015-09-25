@@ -17,8 +17,12 @@ class ContactPage extends Component {
     return (
       <div className="ContactPage">
         <div className="ContactPage-container">
-          <h1>{title}</h1>
-          <p>...</p>
+          <h2>Contact</h2>
+          <a className="Navigation-link" target='_blank' href='charlesmtalbot.com'>Charlesmtalbot.com</a>
+          <p>Charlietalbot at gmail</p>
+          <p>Instagram: Blonderrr</p>
+          <p>Twitter: @charlietal</p>
+
         </div>
       </div>
     );
