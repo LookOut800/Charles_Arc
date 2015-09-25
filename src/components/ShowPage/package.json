@@ -1,0 +1,6 @@
+{
+  "name": "Shower",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./ShowPage.js"
+}
