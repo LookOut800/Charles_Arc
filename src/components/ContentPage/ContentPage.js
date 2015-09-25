@@ -23,8 +23,13 @@ class ContentPage extends Component {
       <div className="ContentPage">
         <div className="ContentPage-container">
           {
-            this.props.path === '/' ? null : <h1>{this.props.title}</h1>
+            this.props.path === '/' ?    null : <h1>{this.props.title}</h1>
           }
+          <img className="Header-brandImg" src={require('./images/BurstBlue-web.jpg')} alt="Wave" />
+          <img className="Header-brandImg" src={require('./images/Box-Bars-web.jpg')} alt="box bars" />
+          <img className="Header-brandImg" src={require('./images/Shell.jpg')} alt="Wave" />
+          <img className="Header-brandImg" src={require('./images/Ol-Stump.jpg')} alt="Wave" />
+
           <div dangerouslySetInnerHTML={{__html: this.props.content || ''}} />
         </div>
       </div>

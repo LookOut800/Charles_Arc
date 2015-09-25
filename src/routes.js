@@ -1,11 +1,10 @@
-/*! React Starter Kit | MIT License | http://www.reactstarterkit.com/ */
-
 import React from 'react';
 import Router from 'react-routing/src/Router';
 import http from './core/HttpClient';
 import App from './components/App';
 import ContentPage from './components/ContentPage';
 import ContactPage from './components/ContactPage';
+import ShowPage from './components/ShowPage';
 import LoginPage from './components/LoginPage';
 import RegisterPage from './components/RegisterPage';
 import NotFoundPage from './components/NotFoundPage';
@@ -18,6 +17,8 @@ const router = new Router(on => {
   });
 
   on('/contact', async () => <ContactPage />);
+
+  on('/show', async () => <ShowPage />);
 
   on('/login', async () => <LoginPage />);
 
