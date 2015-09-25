@@ -17,7 +17,8 @@ class Header extends Component {
           <a className="Header-brand" href="/" onClick={Link.handleClick}>
           <div className="Header-banner">
             <h1 className="Header-bannerTitle">Charles : How Heart</h1>
-            <p className="Header-bannerDesc">These are recent things happening. </p>
+            <img className="" src={require('./squiggle.png')} alt="Wave" height="100" />
+
           </div>
           </a>
         </div>

@@ -5,7 +5,7 @@ import App from './components/App';
 import ContentPage from './components/ContentPage';
 import ContactPage from './components/ContactPage';
 import ShowPage from './components/ShowPage';
-import LoginPage from './components/LoginPage';
+import AboutPage from './components/AboutPage';
 import RegisterPage from './components/RegisterPage';
 import NotFoundPage from './components/NotFoundPage';
 import ErrorPage from './components/ErrorPage';
@@ -21,6 +21,8 @@ const router = new Router(on => {
   on('/show', async () => <ShowPage />);
 
   on('/login', async () => <LoginPage />);
+
+  on('/about', async () => <AboutPage />);
 
   on('/register', async () => <RegisterPage />);
 
