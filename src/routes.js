@@ -20,8 +20,6 @@ const router = new Router(on => {
 
   on('/show', async () => <ShowPage />);
 
-  on('/login', async () => <LoginPage />);
-
   on('/about', async () => <AboutPage />);
 
   on('/register', async () => <RegisterPage />);

@@ -1,5 +1,3 @@
-/*! React Starter Kit | MIT License | http://www.reactstarterkit.com/ */
-
 import React, { PropTypes, Component } from 'react';
 import styles from './ContentPage.css';
 import withStyles from '../../decorators/withStyles';
@@ -25,7 +23,11 @@ class ContentPage extends Component {
           {
             this.props.path === '/' ?    null : <h1>{this.props.title}</h1>
           }
-          <img className="Header-brandImg" src={require('./images/1.jpg')} alt="Wave" />
+          <img className="Header-brandImg" src={require('./images/13.jpg')} alt="Wave" />
+          <img className="Header-brandImg" src={require('./images/12.jpg')} alt="Wave" />
+          <img className="Header-brandImg" src={require('./images/10.jpg')} alt="Wave" />
+          <img className="Header-brandImg" src={require('./images/11.jpg')} alt="Wave" />
+          <img className="Header-brandImg" src={require('./images/2.jpg')} alt="Wave" />
           <img className="Header-brandImg" src={require('./images/BurstBlue-web.jpg')} alt="Wave" />
           <img className="Header-brandImg" src={require('./images/3.jpg')} alt="Wave" />
           <img className="Header-brandImg" src={require('./images/Box-Bars-web.jpg')} alt="box bars" />
@@ -33,9 +35,7 @@ class ContentPage extends Component {
           <img className="Header-brandImg" src={require('./images/Shell.jpg')} alt="Wave" />
           <img className="Header-brandImg" src={require('./images/4.jpg')} alt="Wave" />
           <img className="Header-brandImg" src={require('./images/Ol-Stump.jpg')} alt="Wave" />
-          <img className="Header-brandImg" src={require('./images/2.jpg')} alt="Wave" />
-
-          <div dangerouslySetInnerHTML={{__html: this.props.content || ''}} />
+          <img className="Header-brandImg" src={require('./images/1.jpg')} alt="Wave" />
         </div>
       </div>
     );
