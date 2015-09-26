@@ -10,7 +10,10 @@
   background: var(--white-base);
   text-align: center;
   h2 {
-    margin-top: 100px;
+    margin-top: 50px;
+  }
+  li {
+    list-style: none;
   }
 }
 .AboutPage-content {
